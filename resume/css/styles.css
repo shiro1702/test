@@ -90,14 +90,20 @@ margin-top:3.02vw;
 .ntext h1{
 margin:0px;
 padding:0px;
-font-size:50px;
 }
-.ntext h1.name{
-
+.ntext h1.name {
 font-family: 'MyriadPro-LightSemiExt';
 font-weight:normal;
+font-size:81px;
+margin-top:-20px;
 }
-
+.ntext h1.surname {
+font-size:94.5px;
+margin-top:-30px;
+}
+.ntext h1.job {
+font-size:37px;
+}
 
 
 
