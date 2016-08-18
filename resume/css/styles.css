@@ -82,6 +82,7 @@ max-width:980px;
 min-width:306px;
 }
 
+/*настройка первого блока, логотипа с именем*/
 .firstblock{
 box-shadow: 0 0 0 2px #3d6cb0 inset;
 
@@ -135,7 +136,10 @@ font-size:25px;
 /*font-size:1.92vw;*/
 }
 
+/*конец первого блока*/
 
+
+/*общая настройка блоков*/
 .icon{
 width:76px;
 height:76px;
@@ -154,7 +158,7 @@ margin-left:1px;
 
 .block{
 //margin-top:4vw;
-margin-top:0px;
+margin-top:50px;
 
 box-shadow: 0 0 0 2px #3d6cb0 inset;
 
@@ -163,15 +167,14 @@ position:relative;
 .block h2{
 margin:0;
 margin-left:8px;
-margin-top:-10px;
-font-size:42px;
+margin-top:-8px;
+font-size:42.5px;
 }
-.block p{
-font-size:23.75px;
-font-family: 'MyriadPro-Regular';
-//box-shadow: 0 0 0 2px #3d6cb0 inset;
-margin:0px;
-margin-top:12.5px;
+
+.lhead{
+//float:left;
+display:inline-block;
+vertical-align:middle;
 }
 .block .lheadline.lhead{
 //display:block;
@@ -185,7 +188,6 @@ height:5px;
 margin-top:-5px;
 margin-left:6px;
 
-
 /*width:auto;
 min-width:10%;
 height:5px;
@@ -194,6 +196,8 @@ margin-left:6px;
 */
 }
 
+
+/*настройка второго блока, профиль*/
 .profile{
 //margin-top:6.2vw;
 margin-top:80px;
@@ -202,11 +206,115 @@ margin-top:80px;
 .icon1{
 
 }
-.lhead{
-//float:left;
-display:inline-block;
-vertical-align:middle;
+
+.profile p{
+font-size:15.9px;
+font-family: 'MyriadPro-Regular';
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
+margin:0px;
+margin-top:9.5px;
 }
+.profile p b{
+font-family: 'MyriadPro-Bold';
+font-weight:normal;
+line-height: 1.25;
+}
+/*КОНЕЦ настройка второго блока, профиль*/
+
+/*настройка третьего блока, контакты*/
+.contact{
+margin-top:49px;
+}
+
+.icon2{
+
+width:77px;
+height:77px;
+/*
+width:5.95vw;
+height:5.95vw;
+*/
+border-radius:2000px;
+
+background: url('../images/icons.png') no-repeat 0 0;
+/*background-size:auto 6.05vw ;*/
+background-size:auto 78px;
+background-position:-74px 0;
+margin-left:-2px;
+margin-top:-1px;
+}
+.contact .ltext{
+margin-top:20px;
+}
+
+.contact h3,p{
+display:inline-block;
+}
+
+.contact p{
+font-size:21px;
+font-family: 'MyriadPro-Regular';
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
+margin:0px;
+margin-top:9.5px;
+}
+.contact h3{
+font-size:21px;
+font-family: 'MyriadPro-Bold';
+max-width:300px;
+min-width:100px;
+width:131px;
+margin:0px;
+margin-bottom:22px;
+}
+
+/*КОНЕЦ настройка  третьего блока, контакты*/
+
+/*настройка четвертого блока, навыки*/
+.skills{
+margin-top:30px;
+}
+
+.icon3{
+width:74px;
+height:74px;
+background-size:auto 78px;
+background-position:-152px 0;
+
+}
+.skills .lheadline.lhead{
+
+margin-top:-4px;
+margin-left:9px;
+
+}
+.skills .ltext{
+margin-top:20px;
+text-align:center;
+font-size:21px;
+}
+
+.skills h3,p{
+display:inline-block;
+}
+
+.skills p{
+font-size:21px;
+font-family: 'MyriadPro-Regular';
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
+margin:0px;
+margin-top:9.5px;
+}
+.skills h3{
+font-size:21px;
+font-family: 'MyriadPro-Bold';
+max-width:300px;
+min-width:100px;
+width:131px;
+margin:0px;
+margin-bottom:22px;
+}
+
 
 
 
