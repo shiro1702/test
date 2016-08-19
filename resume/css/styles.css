@@ -289,32 +289,54 @@ margin-left:9px;
 
 }
 .skills .ltext{
-margin-top:20px;
+//margin-top:6px;
+margin-top:22px;
+
+
 text-align:center;
 font-size:21px;
 }
 
-.skills h3,p{
+.skills h3,.circlerow,.circle{
 display:inline-block;
 }
 
-.skills p{
-font-size:21px;
-font-family: 'MyriadPro-Regular';
-//box-shadow: 0 0 0 2px #3d6cb0 inset;
-margin:0px;
-margin-top:9.5px;
-}
 .skills h3{
-font-size:21px;
-font-family: 'MyriadPro-Bold';
-max-width:300px;
-min-width:100px;
-width:131px;
+font-size:26.5px;
+font-family: 'MyriadPro-Regular';
+font-weight:normal;
 margin:0px;
-margin-bottom:22px;
+//margin-top:21px;
+//margin-top:16px;
+}
+.circlerow{
+margin-top:5px;
+margin-bottom:15px;
+
+max-width:640px;
+min-width:200px;
+width:80%;
+box-shadow: 0 0 0 2px #3d6cb0 inset;
+
+text-align:left;
+}
+.circlerow .circle{
+border-radius:2000px;
+width:18px;
+height:18px;
+margin:4px 3px 0 3px;
+}
+.circlerow .circle:not(.bgc){
+background-color:#e6e6e6;
+}
+.circlerow .circle:first-child{
+margin-left:3px;
+}
+.circlerow .circle:last-child{
+margin-right:0px;
 }
 
+/*КОНЕЦ настройка  четвертого блока, навыки*/
 
 
 
