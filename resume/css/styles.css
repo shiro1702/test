@@ -338,57 +338,51 @@ margin-right:0px;
 /*КОНЕЦ настройка  четвертого блока, навыки*/
 
 
+.right .block h2{
+margin-left:18px;
+margin-top:-10px;
+}
+
+
 /*настройка пятого блока, образование*/
 .education{
 margin-top:0px;
 }
 .icon4{
-width:74px;
-height:74px;
+width:78px;
+height:78px;
 background-size:auto 78px;
-background-position:-260px 0;
+background-position:-225px 0;
+//margin-top:-2px;
+margin-left:-1px;
 }
 /*.education .lheadline.lhead{
 margin-top:-4px;
 margin-left:9px;
 }*/
-.education table{
-margin-top:19px;
+
+.education .ltext{
+margin-top:20px;
+//position:relative;
 }
-
-.education t2{
-margin-top:25px;
+.education .ltext .row{
+position:relative;
+padding-bottom:9px;
 }
-
-
-.education tr td:first-child{
+.education .ltext .circle{
+position:absolute;
 font-size:75px;
-vertical-align:top;
-margin:-40px 20px 0 15px;
-//line-height:30px;
-width:48px;
+line-height:0px;
+//vertical-align:top;
+top:12px;
+left:12px;
 }
 
-/*
-.education ul{
-margin-top:22px;
-//text-align:center;
-//font-size:21px;
-font-size:60px;
-
+.education .ltext .econt{
+margin-left:55px;
 }
-.education li{
-margin:0px 0 0 15px ;
-
-//font-size:21px;
-//line-height:0px;
-//list-style-type: none; 
-  //list-style-image: url('../images/dot.png');
-
-}*/
 
 .education h3{
-/* &bull;*/
 font-size:26.5px;
 line-height:35px;
 
@@ -423,6 +417,86 @@ margin:3px 0 0 2px;
 //margin-top:16px;
 line-height:1.3em;
 }
-/*КОНЕЦ настройка  четвертого блока, навыки*/
+/*КОНЕЦ настройка  пятого блока, образование*/
 
+/*настройка  шестого блока, опыт работы*/
+.experience{
+margin-top:38px;
+}
+.icon5{
+width:78px;
+height:78px;
+background-size:auto 76px;
+background-position:-294px 0;
+//margin-top:-2px;
+margin-left:-1px;
+}
 
+.experience .ltext{
+margin-top:36px;
+//position:relative;
+}
+.experience .ltext .row{
+position:relative;
+padding-bottom:7px;
+}
+.experience .ltext .circle{
+position:absolute;
+font-size:75px;
+line-height:0px;
+//vertical-align:top;
+top:12px;
+left:12px;
+}
+
+.experience .ltext .econt{
+margin-left:55px;
+}
+
+.experience h3{
+font-size:26.5px;
+line-height:35px;
+
+//font-size:60px;
+
+font-family: 'MyriadPro-Regular';
+font-weight:normal;
+margin:0px;
+//padding:0px;
+
+//vertical-align:top;
+//display:inline; 
+
+//height:30px;
+//line-height:0px;
+//margin-top:21px;
+//margin-top:16px;
+}
+.experience h3 b{
+font-size:26.5px;
+font-family: 'MyriadPro-Bold';
+font-weight:normal;
+//margin:0px;
+//margin-top:21px;
+//margin-top:16px;
+}
+.experience p{
+font-size:16px;
+font-family: 'MyriadPro-Regular';
+font-weight:normal;
+margin:3px 0 0 2px;
+//margin-top:16px;
+line-height:1.3em;
+}
+/*КОНЕЦ настройка  шестого блока, опыт работы*/
+
+/*настройка  седьмого блока, программы*/
+.software{
+margin-top:48px;
+}
+
+.software .ltext{
+
+}
+
+/*КОНЕЦ настройка  седьмого блока, программы*/
