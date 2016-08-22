@@ -28,7 +28,8 @@ html{
 }
 
 body {
-	font-family:'MyriadPro-Bold';
+	font-family: 'MyriadPro-Regular';
+	//font-family:'MyriadPro-Bold';
 	background-color: #ffffff;
 	margin: 0;
 }
@@ -41,7 +42,7 @@ min-width:600px;
 width:100vw;
 
 //border: 2px solid;
-box-shadow: 0 0 0 2px #3d6cb0 inset;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
 }
 
 .TextCol{
@@ -61,7 +62,7 @@ vertical-align:top;
 margin-top:6.13%;
 margin-left:6.15%;
 
-box-shadow: 0 0 0 2px #3d6cb0 inset;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
 }
 
 .bigblock.left{
@@ -84,7 +85,7 @@ min-width:306px;
 
 /*настройка первого блока, логотипа с именем*/
 .firstblock{
-box-shadow: 0 0 0 2px #3d6cb0 inset;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
 
 padding-left:19px;
 }
@@ -105,7 +106,7 @@ margin: 12px auto 0px;
 width:100%;
 text-align:center;
 //font-size:50px;
-box-shadow: 0 0 0 2px #3d6cb0 inset;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
 
 //margin-top:3.02vw;
 
@@ -113,6 +114,7 @@ box-shadow: 0 0 0 2px #3d6cb0 inset;
 .ntext h1{
 margin:0px;
 padding:0px;
+font-family: 'MyriadPro-Bold';
 }
 .ntext h1.name {
 font-family: 'MyriadPro-LightSemiExt';
@@ -130,10 +132,12 @@ margin-top:-22px;
 //margin-left:5px;
 /*font-size:4.93vw;
 margin-top:-1.65vw;*/
+//font-family: 'MyriadPro-Bold';
 }
 .ntext h1.job {
 font-size:25px;
 /*font-size:1.92vw;*/
+//font-family: 'MyriadPro-Bold';
 }
 
 /*конец первого блока*/
@@ -160,7 +164,7 @@ margin-left:1px;
 //margin-top:4vw;
 margin-top:50px;
 
-box-shadow: 0 0 0 2px #3d6cb0 inset;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
 
 position:relative;
 }
@@ -169,6 +173,7 @@ margin:0;
 margin-left:8px;
 margin-top:-8px;
 font-size:42.5px;
+font-family: 'MyriadPro-Bold';
 }
 
 .lhead{
@@ -239,7 +244,7 @@ border-radius:2000px;
 background: url('../images/icons.png') no-repeat 0 0;
 /*background-size:auto 6.05vw ;*/
 background-size:auto 78px;
-background-position:-74px 0;
+background-position:-87px 0;
 margin-left:-2px;
 margin-top:-1px;
 }
@@ -278,8 +283,8 @@ margin-top:30px;
 .icon3{
 width:74px;
 height:74px;
-background-size:auto 78px;
-background-position:-152px 0;
+background-size:auto 76px;
+background-position:-167px 0;
 
 }
 .skills .lheadline.lhead{
@@ -351,8 +356,8 @@ margin-top:0px;
 .icon4{
 width:78px;
 height:78px;
-background-size:auto 78px;
-background-position:-225px 0;
+background-size:auto 77px;
+background-position:-253px 0;
 //margin-top:-2px;
 margin-left:-1px;
 }
@@ -371,7 +376,7 @@ padding-bottom:9px;
 }
 .education .ltext .circle{
 position:absolute;
-font-size:75px;
+font-size:84px;
 line-height:0px;
 //vertical-align:top;
 top:12px;
@@ -426,8 +431,8 @@ margin-top:38px;
 .icon5{
 width:78px;
 height:78px;
-background-size:auto 76px;
-background-position:-294px 0;
+background-size:auto 77px;
+background-position:-338px 0;
 //margin-top:-2px;
 margin-left:-1px;
 }
@@ -442,7 +447,7 @@ padding-bottom:7px;
 }
 .experience .ltext .circle{
 position:absolute;
-font-size:75px;
+font-size:84px;
 line-height:0px;
 //vertical-align:top;
 top:12px;
@@ -494,9 +499,61 @@ line-height:1.3em;
 .software{
 margin-top:48px;
 }
-
-.software .ltext{
-
+.icon6{
+width:78px;
+height:78px;
+background-size:auto 76px;
+background-position:-416px 0;
+//margin-top:-2px;
+margin-left:-1px;
 }
+.software .ltext{
+margin-top:21px;
+text-align:justify;
+text-align-last:justify;
+}
+
+.software .ltext > div{
+display:inline-block;
+margin: 0 0 24px 8px;
+width:44%;
+}
+.software .ltext h3{
+font-weight:normal;
+font-size:26.5px;
+margin:0 0 14px 0;
+text-align:left;
+text-align-last:left;
+}
+.progbar{
+background-color:#e6e6e6;
+width:100%;
+height:22px;
+}
+.PHOTOSHOP .progbar .prog{
+width:90%;
+height:100%;
+}
+.DREAMWEAVER .progbar .prog{
+width:82%;
+height:100%;
+}
+.ILLUSTRATOR .progbar .prog{
+width:70%;
+height:100%;
+}
+.AFTEREFFECTS .progbar .prog{
+width:60%;
+height:100%;
+}
+.INDESIGN .progbar .prog{
+width:57%;
+height:100%;
+}
+.HTMLCSS .progbar .prog{
+width:90%;
+height:100%;
+}
+
 
 /*КОНЕЦ настройка  седьмого блока, программы*/
