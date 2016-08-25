@@ -1,0 +1,290 @@
+@font-face {
+	font-family: 'GothamProRegular';
+	src: url('../fonts/GothamProRegular.eot');
+	src: local('☺'), url('../fonts/GothamProRegular.woff') format('woff'), url('../fonts/GothamProRegular.ttf') format('truetype'), url('../fonts/GothamProRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.eot');
+	src: local('☺'), url('../fonts/Montserrat-Light.woff') format('woff'), url('../fonts/Montserrat-Light.ttf') format('truetype'), url('../fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/Montserrat-SemiBold.eot');
+	src: local('☺'), url('../fonts/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype'), url('../fonts/Montserrat-SemiBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-UltraLight';
+	src: url('../fonts/Montserrat-UltraLight.eot');
+	src: local('☺'), url('../fonts/Montserrat-UltraLight.woff') format('woff'), url('../fonts/Montserrat-UltraLight.ttf') format('truetype'), url('../fonts/Montserrat-UltraLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html{
+	font-size: 12px;
+}
+
+body {
+	font-family:"Montserrat-Regular";
+	//font-family:'MyriadPro-Bold';
+	background-color: #ffffff;
+	margin: 0;
+}
+
+
+
+.bgc{
+ background-color:#3d6cb0;
+ 
+ //#e94643 red  nav color
+ //#ef5350 redlight
+ //#ff8a80 redverylight
+  
+ //#04e4a2 green  
+ //#69f0ae greenlight
+ //#1de9b6 green arrow
+ 
+ //#fefcf2 footer color
+ 
+ //#1d1d1d phone color
+}
+/*ЗАДАНИЕ ОСНОВНЫХ ЦВЕТОВ*/
+.bgc11, .btnsend:hover{
+background-color:#e94643; //#e94643 red  nav color
+}
+.bgc12, .btnsend{
+background-color:#ef5350; //#ef5350 redlight
+}
+.bgc13{
+background-color:#ff8a80; //#ff8a80 redverylight
+}
+.bgc21,.btnmore{
+background-color:#04e4a2 ;  //#04e4a2 green  
+}
+.bgc22,.btnmore:hover{
+background-color:#69f0ae;  //#69f0ae greenlight
+}
+.bgc23{
+background-color:#1de9b6;  //#1de9b6 green arrow
+}
+.footerclolor{
+background-color:#fefcf2;  //#fefcf2 footer color
+}
+/*
+ЗАДАНИЕ ОСНОВНЫХ ЦВЕТОВ
+--- END ---
+*/
+.fullW{
+width:100%;
+}
+.center{
+margin: 0 auto;
+
+max-width:1366px;
+min-width:600px;
+width:100vw;
+
+height:100%;
+//border: 2px solid;
+box-shadow: 0 0 0 2px #3d6cb0 inset;
+}
+
+.navbartop{
+height:22px;
+}
+.navbar{
+//height:78px;
+min-height: 78px;
+
+
+//text-align:justify;
+text-align-last:justify;
+color:white;
+font-size:22px;
+vertical-align:middle;
+}
+.navbar > div{
+display:inline-block;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
+height:25px;
+vertical-align:middle;
+}
+.navbar:before {
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
+  text-align-last:right;
+}
+  
+.navbar :first-child{
+//margin-left:228px;
+margin-left:16.691%;
+}
+.navbar :last-child{
+//margin-right:94px;
+margin-right:6.88%;
+}
+.navbar .logo{
+font-family:"Montserrat-Bold";
+font-size:35px; 
+//font-weight:normal;
+ // vertical-align: middle;
+  line-height:70%;
+ // color:black;
+}
+.navbar .contact{
+box-shadow: 0 -2px 0 0 yellow inset;
+//border-bottom:2px solid yellow;
+//text-decoration:underline;
+
+font-family:"GothamProRegular";
+font-size:16px; 
+
+height: 24px;
+//vertical-align:top;
+}
+
+
+.content{
+height:977px;
+
+}
+.content .top{
+min-height:584px;
+height:auto;
+//position:relative;
+color:white;
+text-align:right;
+}
+
+.content .decor{
+z-index:5;
+//display:inline-block;
+position:absolute;
+max-width:955px;
+width:69.91vw;
+min-width:419.46px;
+
+max-height:855px;
+height:62.59vw;
+min-height:375.54px;
+
+box-shadow: 0 0 0 2px #3d6cb0 inset;
+}
+.content .phone{
+z-index:10;
+position:absolute;
+width:388px;
+height:814px;
+box-shadow: 0 0 0 2px #3d6cb0 inset;
+}
+
+.content .Ttext{
+  display: inline-block;
+  margin-top:185px;
+  //margin-right:154px;
+  margin-right:11.27%;
+  
+  //font-family:"Montserrat-Regular";
+
+  max-width:505px;
+  width:36.9692%;
+  min-width:222px;
+  
+  text-align:left;
+}
+
+.content .Ttext h1{
+margin:0px;
+font-family:"Montserrat-Regular";
+font-weight:normal;
+font-size:30px;
+line-height:1.2em;
+}
+.content .Ttext p{
+margin-top:24px;
+font-family:"Montserrat-UltraLight";
+font-size:18px;
+}
+
+.content .Ttext .btnmore{
+float:right;
+margin-top:36px;
+margin-right:4px;
+padding:15px 0;
+//padding-bottom:15px;
+width:166px;
+text-align:center;
+border-radius:4pt;
+
+//font-family:"Montserrat-Regular";
+font-size:18px;
+}
+
+
+.content .bottom{
+min-height:393px;
+height:auto;
+text-align:right;
+}
+.content .bottom .talkform{
+display:inline-block;
+text-align:left;
+max-width:522px;
+width:38.21%;
+min-width:522px;
+
+
+}
+
+.content .bottom .talkform input,select,textarea,.letstalk{
+font-size:16px;
+font-family:"Montserrat-Light";
+padding:14px 20px;
+margin:16px 20px 0 0;
+}
+
+.content .bottom .talkform select{
+width:222px;
+color:gray;
+}
+.content .bottom .talkform input[type="submit"].btnsend{
+display:block;
+color:white;
+padding:8px 24px;
+border-radius:3px;
+}
+.content .bottom .talkform .letstalk{
+//font-family:"Montserrat-Light";
+font-size:20px;
+
+}
