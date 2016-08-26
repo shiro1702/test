@@ -116,13 +116,18 @@ height:100%;
 box-shadow: 0 0 0 2px #3d6cb0 inset;
 }
 
+.fullW.bgc11.navigation{
+position:relative;
+z-index:11;
+//box-shadow: 0 0 0 2px #3d6cb0 inset;
+}
+
 .navbartop{
 height:22px;
 }
 .navbar{
 //height:78px;
 min-height: 78px;
-
 
 //text-align:justify;
 text-align-last:justify;
@@ -185,11 +190,17 @@ height:auto;
 color:white;
 text-align:right;
 }
-
+.content .top .center{
+position:relative;
+}
 .content .decor{
-z-index:5;
+z-index:0;
 //display:inline-block;
 position:absolute;
+
+left:-279px;
+top:-80px;
+
 max-width:955px;
 width:69.91vw;
 min-width:419.46px;
@@ -199,13 +210,27 @@ height:62.59vw;
 min-height:375.54px;
 
 box-shadow: 0 0 0 2px #3d6cb0 inset;
+
+background-image:url("../images/greenelement.png");
 }
 .content .phone{
 z-index:10;
 position:absolute;
+left:190px;
+top:64px;
 width:388px;
 height:814px;
 box-shadow: 0 0 0 2px #3d6cb0 inset;
+
+background-image:url("../images/phone.png");
+}
+.content .phone .phonescreen{
+
+width:329px;
+height:583px;
+
+margin:115px auto 0;
+background-image:url("../images/phonescreen.jpg");
 }
 
 .content .Ttext{
@@ -261,15 +286,23 @@ display:inline-block;
 text-align:left;
 max-width:522px;
 width:38.21%;
-min-width:522px;
+min-width:542px;
 
-
+margin:27px 115px 0 0;
 }
+
 
 .content .bottom .talkform input,select,textarea,.letstalk{
 font-size:16px;
 font-family:"Montserrat-Light";
-padding:14px 20px;
+padding:12px 20px;
+margin:14px 20px 4px 0;
+}
+
+.content .bottom .talkform input,select{
+width:222px;
+}
+.content .bottom .talkform .letstalk{
 margin:16px 20px 0 0;
 }
 
